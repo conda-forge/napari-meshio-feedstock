@@ -1,13 +1,13 @@
 {% set name = "napari-meshio" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-meshio-{{ version }}.tar.gz
-  sha256: 6aa88005a2316e03895a9397c949b7cae01d3966fb6db0f288c53998964c7108
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 489bdfba46fe12b82e404f6bbcc8056f508fec034b84ac64767817afcd9b0e09
 
 build:
   noarch: python
