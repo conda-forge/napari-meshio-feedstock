@@ -144,6 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@GenevieveBuckley](https://github.com/GenevieveBuckley/)
-* [@goanpeca](https://github.com/goanpeca/)
 * [@jaimergp](https://github.com/jaimergp/)
 
